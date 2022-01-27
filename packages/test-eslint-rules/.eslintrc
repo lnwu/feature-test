@@ -1,0 +1,6 @@
+{
+  "extends": ["plugin:eslint-comments/recommended"],
+  "rules": {
+    "no-console": "error"
+  }
+}
