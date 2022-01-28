@@ -1,6 +1,33 @@
 {
-  "extends": [],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "unicorn"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "rules": {
-    "no-console": "error"
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": ["class", "enum", "enumMember", "typeLike"],
+        "format": ["PascalCase"]
+      },
+      {
+        "selector": ["variable"],
+        "modifiers": ["const", "global"],
+        "types": ["function"],
+        "format": ["camelCase", "PascalCase"]
+      },
+      {
+        "selector": ["variable"],
+        "modifiers": ["const", "global"],
+        "types": ["string", "number", "boolean", "array"],
+        "format": ["UPPER_CASE"]
+      },
+      {
+        "selector": ["variableLike", "memberLike"],
+        "format": ["camelCase"]
+      }
+    ],
+    "unicorn/filename-case": "error"
   }
 }
