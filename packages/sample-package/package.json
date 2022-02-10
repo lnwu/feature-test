@@ -2,10 +2,15 @@
   "name": "sample-package",
   "version": "1.0.0",
   "type": "module",
-  "module": "./es-index.js",
-  "main": "./index.js",
-  "scripts": {},
+  "module": "dist/es/index.js",
+  "main": "dist/cjs/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "keywords": [],
   "author": "wind2729@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "rollup": "^2.67.2"
+  }
 }

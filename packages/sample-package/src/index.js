@@ -5,3 +5,5 @@ export const foo = () => {
 export const bar = () => {
   console.log("bar");
 };
+
+export * from './add'
