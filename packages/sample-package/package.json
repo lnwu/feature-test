@@ -1,0 +1,11 @@
+{
+  "name": "sample-package",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "./es-index.js",
+  "main": "./index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "wind2729@gmail.com",
+  "license": "MIT"
+}
