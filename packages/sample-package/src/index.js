@@ -6,4 +6,4 @@ export const bar = () => {
   console.log("bar");
 };
 
-export * from './add'
+export * from "./add";
