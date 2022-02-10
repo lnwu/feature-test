@@ -1,5 +1,7 @@
 # 命名规范 Eslint 配置
 
+## 测试方式依靠 eslint -report-unused-disable-directives 如果有未使用的 rules 就会报错
+
 ### TS
 
 - [x] 所有的类名，Enum 变量，Enum 的成员，类型，接口使用 PascalCase
