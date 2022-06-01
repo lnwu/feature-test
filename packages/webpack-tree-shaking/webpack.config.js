@@ -1,5 +1,6 @@
 import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
+import TerserPlugin from "terser-webpack-plugin";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -14,6 +15,24 @@ const config = {
   output: {
     path: resolve(__dirname, "dist"),
     filename: "bundle.js",
+  },
+  optimization: {
+    minimizer: [
+      new TerserPlugin({
+        extractComments: false,
+        terserOptions: {
+          compress: {
+            defaults: false,
+            unused: true,
+          },
+          mangle: false,
+          format: {
+            comments: "all",
+            beautify: true,
+          },
+        },
+      }),
+    ],
   },
 };
 

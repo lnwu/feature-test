@@ -4,7 +4,6 @@
   "type": "module",
   "module": "dist/es/index.js",
   "main": "dist/cjs/index.js",
-  "sideEffects": false,
   "scripts": {
     "build": "rollup -c"
   },
