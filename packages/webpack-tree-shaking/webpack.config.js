@@ -22,7 +22,7 @@ const config = {
         extractComments: false,
         terserOptions: {
           compress: {
-            defaults: false,
+            defaults: true,
             unused: true,
           },
           mangle: false,

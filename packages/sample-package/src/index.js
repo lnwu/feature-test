@@ -7,3 +7,4 @@ export const bar = () => {
 };
 
 export * from "./add";
+export { default as addDefault } from "./default";
