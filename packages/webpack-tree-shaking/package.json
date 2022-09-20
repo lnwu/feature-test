@@ -10,8 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "sample-package": "workspace:^1.0.0",
-    "terser-webpack-plugin": "^5.3.1",
-    "webpack": "^5.68.0",
-    "webpack-cli": "^4.9.2"
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   }
 }
