@@ -51,7 +51,7 @@ importers:
       '@nestjs/platform-express': ^9.1.1
       '@nestjs/schematics': ^9.0.3
       '@nestjs/testing': ^9.1.1
-      '@nestjs/throttler': ^3.0.0
+      '@nestjs/throttler': ^4.0.0
       '@types/express': ^4.17.14
       '@types/jest': 28.1.8
       '@types/node': ^16.11.59
@@ -78,7 +78,7 @@ importers:
       '@nestjs/common': 9.1.1_j5hagqx4mwzscud4kyjdvubauy
       '@nestjs/core': 9.1.1_rnu4wbspjtr3am5p7vy7xio2ie
       '@nestjs/platform-express': 9.1.1_xhkir6qpcnigaiptpizzepd5vm
-      '@nestjs/throttler': 3.0.0_cuyymkxypo2mw5ephsyhgkx76q
+      '@nestjs/throttler': 4.0.0_cuyymkxypo2mw5ephsyhgkx76q
       reflect-metadata: 0.1.13
       rimraf: 4.4.0
       rxjs: 7.5.6
@@ -1080,8 +1080,8 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@nestjs/throttler/3.0.0_cuyymkxypo2mw5ephsyhgkx76q:
-    resolution: {integrity: sha512-E5aLstJ1a3yZE6AgcN+BgHLiRd8lonR5E4E4I3wzVHRGfgglHQS1sa2zEUuD/pdzLPlbI8pvVDJom8Z2D1oDug==}
+  /@nestjs/throttler/4.0.0_cuyymkxypo2mw5ephsyhgkx76q:
+    resolution: {integrity: sha512-2T2S/hFhxROa/PZRZhHWFkrukxg3T8Db32Y04m6U6j6N2XqFGSKXhjfIbORO8kk/S2jswa9oTX/K12E120tgaQ==}
     peerDependencies:
       '@nestjs/common': ^7.0.0 || ^8.0.0 || ^9.0.0
       '@nestjs/core': ^7.0.0 || ^8.0.0 || ^9.0.0
