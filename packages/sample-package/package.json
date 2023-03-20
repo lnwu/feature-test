@@ -11,6 +11,6 @@
   "author": "wind2729@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "rollup": "^2.67.2"
+    "rollup": "^3.0.0"
   }
 }
